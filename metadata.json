@@ -1,0 +1,6 @@
+{
+  "name": "ELFify - فروشگاه دزدگیر اماکن و تجهیزات هوشمند IOT",
+  "description": "مرکز تخصصی مشاوره و خرید انواع دزدگیر اماکن سیمکارتی، سنسورهای حرکتی، پکیج‌های حفاظتی و اینترنت اشیاء الفیفای با سئو حرفه‌ای و گارانتی اصالت",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

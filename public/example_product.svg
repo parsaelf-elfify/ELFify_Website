@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#94A3B8" />
+      <stop offset="100%" stop-color="#64748B" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="15" stdDeviation="20" flood-color="#020518" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Free Shipping Badge -->
+  <g transform="translate(40, 30)">
+    <rect x="0" y="0" width="130" height="42" rx="8" fill="#EF4444" />
+    <text x="65" y="26" fill="#FFFFFF" font-family="Tahoma, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">ارسال رایگان</text>
+    <circle cx="15" cy="21" r="5" fill="#FFFFFF" opacity="0.3" />
+  </g>
+
+  <!-- Central Panel Body -->
+  <g filter="url(#shadow)">
+    <!-- Antenna -->
+    <path d="M 440 160 L 370 80" stroke="#1E293B" stroke-width="14" stroke-linecap="round" />
+    <circle cx="370" cy="80" r="10" fill="#0F172A" />
+
+    <!-- Main Enclosure -->
+    <rect x="160" y="150" width="480" height="340" rx="24" fill="url(#panelGrad)" stroke="#CBD5E1" stroke-width="3" />
+
+    <!-- Screen / Header Area -->
+    <rect x="260" y="175" width="340" height="110" rx="16" fill="url(#screenGrad)" />
+
+    <!-- Screen Content -->
+    <text x="280" y="208" fill="#0369A1" font-family="Arial, sans-serif" font-size="20" font-weight="bold">ioMax-Plus</text>
+    <text x="280" y="226" fill="#1E293B" font-family="Arial, sans-serif" font-size="10">Based on internet of things</text>
+
+    <!-- Zone Status LEDs -->
+    <!-- Network -->
+    <rect x="280" y="240" width="32" height="20" rx="4" fill="#0F172A" />
+    <circle cx="304" cy="250" r="3.5" fill="#38BDF8" />
+    <text x="283" y="253" fill="#FFFFFF" font-size="6" font-family="sans-serif">NET</text>
+
+    <!-- Z4, Z5, AC -->
+    <circle cx="330" cy="245" r="3.5" fill="#EF4444" />
+    <text x="338" y="248" fill="#FFFFFF" font-size="8" font-family="sans-serif">Z4</text>
+
+    <circle cx="330" cy="260" r="3.5" fill="#EF4444" />
+    <text x="338" y="263" fill="#FFFFFF" font-size="8" font-family="sans-serif">Z5</text>
+
+    <!-- Z1, Z2, Z3 -->
+    <circle cx="370" cy="245" r="3.5" fill="#EF4444" />
+    <text x="378" y="248" fill="#FFFFFF" font-size="8" font-family="sans-serif">Z1</text>
+
+    <circle cx="370" cy="260" r="3.5" fill="#EF4444" />
+    <text x="378" y="263" fill="#FFFFFF" font-size="8" font-family="sans-serif">Z2</text>
+
+    <text x="490" y="275" fill="#0F172A" font-size="9" font-family="sans-serif" opacity="0.6">www.iomax.org</text>
+
+    <!-- Screw mounting holes -->
+    <circle cx="195" cy="300" r="9" fill="#94A3B8" />
+    <circle cx="195" cy="300" r="5" fill="#475569" />
+
+    <circle cx="605" cy="300" r="9" fill="#94A3B8" />
+    <circle cx="605" cy="300" r="5" fill="#475569" />
+
+    <!-- Decorative Grooves -->
+    <line x1="360" y1="340" x2="580" y2="340" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round" />
+    <line x1="380" y1="365" x2="580" y2="365" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round" />
+    <line x1="410" y1="390" x2="580" y2="390" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round" />
+    <line x1="440" y1="415" x2="580" y2="415" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Lite Tag -->
+    <rect x="540" y="440" width="70" height="28" rx="8" fill="#FACC15" />
+    <text x="575" y="459" fill="#1E293B" font-family="Arial, sans-serif" font-size="16" font-weight="900" text-anchor="middle">Lite</text>
+
+    <!-- Remote Controls -->
+    <!-- Remote 1 -->
+    <g transform="translate(180, 430)">
+      <rect x="0" y="0" width="55" height="95" rx="14" fill="#1E293B" stroke="#64748B" stroke-width="2" />
+      <circle cx="18" cy="25" r="9" fill="#E2E8F0" />
+      <text x="18" y="29" font-size="10" font-family="sans-serif" font-weight="bold" fill="#0F172A" text-anchor="middle">A</text>
+      <circle cx="37" cy="25" r="9" fill="#E2E8F0" />
+      <text x="37" y="29" font-size="10" font-family="sans-serif" font-weight="bold" fill="#0F172A" text-anchor="middle">B</text>
+      <circle cx="18" cy="46" r="9" fill="#E2E8F0" />
+      <text x="18" y="50" font-size="10" font-family="sans-serif" font-weight="bold" fill="#0F172A" text-anchor="middle">C</text>
+      <circle cx="37" cy="46" r="9" fill="#E2E8F0" />
+      <text x="37" y="50" font-size="10" font-family="sans-serif" font-weight="bold" fill="#0F172A" text-anchor="middle">D</text>
+      <!-- Keyring -->
+      <circle cx="27" cy="115" r="14" fill="none" stroke="#94A3B8" stroke-width="3" />
+      <rect x="22" y="88" width="10" height="18" fill="#334155" rx="2" />
+    </g>
+
+    <!-- Remote 2 -->
+    <g transform="translate(250, 445)">
+      <rect x="0" y="0" width="55" height="95" rx="14" fill="#1E293B" stroke="#64748B" stroke-width="2" />
+      <circle cx="18" cy="25" r="9" fill="#E2E8F0" />
+      <text x="18" y="29" font-size="10" font-family="sans-serif" font-weight="bold" fill="#0F172A" text-anchor="middle">A</text>
+      <circle cx="37" cy="25" r="9" fill="#E2E8F0" />
+      <text x="37" y="29" font-size="10" font-family="sans-serif" font-weight="bold" fill="#0F172A" text-anchor="middle">B</text>
+      <circle cx="18" cy="46" r="9" fill="#E2E8F0" />
+      <text x="18" y="50" font-size="10" font-family="sans-serif" font-weight="bold" fill="#0F172A" text-anchor="middle">C</text>
+      <circle cx="37" cy="46" r="9" fill="#E2E8F0" />
+      <text x="37" y="50" font-size="10" font-family="sans-serif" font-weight="bold" fill="#0F172A" text-anchor="middle">D</text>
+      <!-- Keyring -->
+      <circle cx="27" cy="115" r="14" fill="none" stroke="#94A3B8" stroke-width="3" />
+      <rect x="22" y="88" width="10" height="18" fill="#334155" rx="2" />
+    </g>
+  </g>
+</svg>
