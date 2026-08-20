@@ -395,15 +395,6 @@ export default function Header() {
             }
             className="w-full bg-transparent text-xs sm:text-sm font-medium text-[#0C0F0A] dark:text-[#EAE8F0] placeholder-[#657688] dark:placeholder-[#8C93A4] focus:outline-none"
           />
-
-          {/* Quick trigger search modal shortcut indicator on desktop */}
-          <button
-            type="button"
-            onClick={() => setIsSearchOpen(true)}
-            className="hidden lg:flex items-center text-[10px] font-bold text-[#657688] dark:text-[#ADACB5] bg-white/60 dark:bg-black/30 px-2 py-0.5 rounded-md border border-[#ADACB5]/40"
-          >
-            ⌘K
-          </button>
         </form>
 
         {/* Left Elements (RTL): Store Cart Button + Register/Profile Button */}
